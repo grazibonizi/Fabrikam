@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.Web", "FabrikamFiber.Web\FabrikamFiber.Web.csproj", "{456D6BF0-21B0-4995-9D77-76FA13AD95DA}"
 EndProject
@@ -13,6 +13,15 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.DAL", "FabrikamFiber.DAL\FabrikamFiber.DAL.csproj", "{64058BA2-30B8-4A35-8D4C-CB4F6D6D7442}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.Web.UITests", "FabrikamFiber.Web.UITests\FabrikamFiber.Web.UITests.csproj", "{7B9028A6-73A9-4CC3-BBA9-5CD129D6BEC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabrikamFiber.Web.WebTests", "FabrikamFiber.Web.WebTests\FabrikamFiber.Web.WebTests.csproj", "{8937B80B-FD06-4182-9CD6-30510E4D7617}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0E3CDD15-F324-4BDF-A273-9AFC06AFA4E4}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{A3B6BDE9-CF80-49FE-B7A1-A268F430DAB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,8 +53,19 @@ Global
 		{7B9028A6-73A9-4CC3-BBA9-5CD129D6BEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B9028A6-73A9-4CC3-BBA9-5CD129D6BEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B9028A6-73A9-4CC3-BBA9-5CD129D6BEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8937B80B-FD06-4182-9CD6-30510E4D7617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8937B80B-FD06-4182-9CD6-30510E4D7617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8937B80B-FD06-4182-9CD6-30510E4D7617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8937B80B-FD06-4182-9CD6-30510E4D7617}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{456D6BF0-21B0-4995-9D77-76FA13AD95DA} = {A3B6BDE9-CF80-49FE-B7A1-A268F430DAB4}
+		{2FE8E250-4218-4B31-AB23-D9B91ABD842B} = {A3B6BDE9-CF80-49FE-B7A1-A268F430DAB4}
+		{A8E4732A-F2F0-4953-8946-46A1900F65A4} = {A3B6BDE9-CF80-49FE-B7A1-A268F430DAB4}
+		{5F674CB4-3098-40B2-9EFD-5D754348974D} = {A3B6BDE9-CF80-49FE-B7A1-A268F430DAB4}
+		{64058BA2-30B8-4A35-8D4C-CB4F6D6D7442} = {A3B6BDE9-CF80-49FE-B7A1-A268F430DAB4}
 	EndGlobalSection
 EndGlobal
